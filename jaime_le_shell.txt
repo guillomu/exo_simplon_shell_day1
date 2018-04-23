@@ -1,0 +1,32 @@
+Commandes utilisées pour l'exercice coquillage et crustacés:
+
+cd ~
+
+mkdir Documents/dev
+mkdir Documents/dev/coder
+mkdir Documents/dev/coder/Jaime_le_shell
+
+cd Documents/dev/coder/Jaime_le_shell
+
+touch test1
+mkdir test2
+mkdir test3
+mkdir test4
+touch test5
+mkdir test6
+
+sudo chmod 644 test1
+sudo chmod 755 test2
+sudo chmod 755 test3
+sudo chmod 755 test4
+sudo chmod 644 test5
+sudo chmod 755 test6
+
+mkdir le_shell_cest_trop_cool!
+sudo chmod 755 le_shell_cest_trop_cool\!/
+
+mv test1 le_shell_cest_trop_cool\!/test1
+mv test1 le_shell_cest_trop_cool\!/test5
+
+cp -r test2 le_shell_cest_trop_cool\!/test2
+cp -r test6 le_shell_cest_trop_cool\!/test6
